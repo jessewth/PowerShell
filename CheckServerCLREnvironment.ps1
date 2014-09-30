@@ -1,4 +1,8 @@
-﻿cd c:\batch\ps1
+﻿##################################################
+# Use PowerShell checking your servers .NET Framwork CLR version
+##################################################
+
+cd c:\batch\ps1
 
 $serverList = Get-Content .\shopping_server_list.txt
 
